@@ -1,0 +1,77 @@
+---
+title: "Multiple Modeling: The Movie"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r load-packages, message = FALSE, echo=F, results='hide'}
+library(ggplot2)
+library(dplyr)
+library(statsr)
+setwd("~/Desktop/statsWithR/statswithr_week14")
+load("movies.Rdata")
+```
+
+## Part 0: Introduction (Overture)
+Dear Paramount Pictures Boss:
+
+Thanks for hiring our firm, Statistochastical, to analyze your data. You said you're interested in learning what attributes make a movie popular - well, we'll tell you. You'll also learn something new about movies, for the same price of admission!
+
+Grab your popcorn, sit back and enjoy "Multiple Modeling: The Movie"!
+
+***
+
+## Part 1: Data
+
+The population of interest is movies with ratings on IMDB and Rotten Tomatoes. The data is over 600 randomly sampled movies released before 2016.
+
+Given the random sampling, the analysis can be generalized to the population. Since there is no random assignment, we cannot establish causality.
+
+***
+
+## Part 2: Research question
+
+Should be phrased in a non-causal way (1 pt)
+
+Should be well defined / not vague (1 pt)
+
+Is clear why this is of interest to the author / audience (1 pt)
+
+***
+
+## Part 3: Exploratory data analysis
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+***
+
+## Part 4: Modeling
+
+Develop a multiple linear regression model to predict a numerical variable in the dataset. The response variable and the explanatory variables can be existing variables in the dataset, or new variables you create based on existing variables.
+
+Specify which variables to consider for the full model (1 pt)
+Reasoning for excluding certain variables (2 pts)
+Reasoning for choice of model selection method (2 pts)
+Carrying out the model selection correctly (5 pts)
+Model diagnostics (5 pts)
+Interpretation of model coefficients (5 pts)
+
+
+
+***
+
+## Part 5: Prediction
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button above. Make sure that your code is visible in the project you submit. 
+Delete this note when before you submit your work.
+
+***
+
+## Part 6: Conclusion
+
